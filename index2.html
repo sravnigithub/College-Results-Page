@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        .container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .logo {
+            max-width: 200px;
+        }
+        h1 {
+            color: #0070C0;
+            margin-top: 20px;
+        }
+        h3 {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+        .notificationHolder {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .hallticket {
+            width: 200px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .getResultButton {
+            background-color: #0070C0;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .getResultButton:hover {
+            background-color: #0050A0;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://dhondi.ai/logos/jntugvcev.png" alt="University Logo" class="logo">
+        <h1>Jawaharlal Nehru Technological University - Gurajada, Vizianagaram</h1>
+        <div class="logoOne">
+            <h3>Examination Results</h3>
+        </div>
+        <div class="notificationHolder">
+            <div class="tutionFeeHolder">
+                <h3>2nd B.Tech 2nd Semester Regular R20 February 2023</h3>
+                <div class="tutionFeeContent">
+                    <div class="tutionFeeForgotPasswordForm">
+                        <form autocomplete="false"  action="index1.php" method="post" class="no-print" id="resultGetForm">
+                            <input type="text" autocomplete="new-password" name="rollnumber" class="hallticket" placeholder="HallTicket Number" maxlength="10">
+                            <br>
+                            <button type="submit"  class="getResultButton">Get Result</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            &copy; 2023 Jawaharlal Nehru Technological University - Gurajada, Vizianagaram
+        </div>
+    </div>
+</body>
+</html>
